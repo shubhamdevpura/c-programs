@@ -31,7 +31,7 @@ int main()
 { 
     int arr1[] = { 6, 4, 2, 1, 8, 3 }; 
     int n = sizeof(arr1) / sizeof(arr1[0]);
-    printf("The array given is: \n"); 
+    printf("The Given Array is: \n"); 
     dispArray(arr1, n); 
     rearrange(arr1, n); 
     printf("The new array after rearranging: \n"); 
